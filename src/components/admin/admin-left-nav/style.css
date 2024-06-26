@@ -1,0 +1,10 @@
+
+@media only screen and (max-width: 768px) {
+    .left-nav {
+        max-height: 40vh !important;
+    }
+
+    .left-nav-scroll {
+        max-height: 30vh !important;
+    }
+}   

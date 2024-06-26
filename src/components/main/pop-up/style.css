@@ -1,0 +1,36 @@
+.popUp {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    min-width: 101vw;
+    min-height: 101vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.closePopUpButton {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    color: gray;
+    font-size: xx-large;
+}
+
+.closePopUpButton:hover {
+    background-color: rgba(190, 187, 187, 0.5);
+    color: white;
+}
+
